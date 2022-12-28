@@ -1,0 +1,37 @@
+{
+  "name": "@ngx-lite/json-ld",
+  "version": "0.6.5",
+  "repository": "https://github.com/coryrylan/ngx-json-ld",
+  "author": "Cory Rylan",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/platform-browser": "^12.0.2",
+    "@angular/common": "^12.0.2",
+    "@angular/core": "^12.0.2",
+    "@angular/forms": "^12.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/ngx-lite-json-ld.mjs",
+  "es2020": "fesm2020/ngx-lite-json-ld.mjs",
+  "esm2020": "esm2020/ngx-lite-json-ld.mjs",
+  "fesm2020": "fesm2020/ngx-lite-json-ld.mjs",
+  "fesm2015": "fesm2015/ngx-lite-json-ld.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-lite-json-ld.mjs",
+      "es2020": "./fesm2020/ngx-lite-json-ld.mjs",
+      "es2015": "./fesm2015/ngx-lite-json-ld.mjs",
+      "node": "./fesm2015/ngx-lite-json-ld.mjs",
+      "default": "./fesm2020/ngx-lite-json-ld.mjs"
+    }
+  },
+  "sideEffects": false
+}
