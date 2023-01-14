@@ -1,11 +1,3 @@
-# @ngx-lite/json-ld
-
-[![npm version](https://badge.fury.io/js/%40ngx-lite%2Fjson-ld.svg)](https://badge.fury.io/js/%40ngx-lite%2Fjson-ld)
-
-A small component to easily bind [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) schema to Angular templates.
-
-## [Demo]()
-
-## License
-
-MIT © [Cory Rylan](https://coryrylan.com)
+> **Warning**
+> 
+> This is a built version of [@ngx-lite/json-ld](https://github.com/coryrylan/ngx-lite) to support Angular 14. This is a temporary repo, waiting for [PR](https://github.com/coryrylan/ngx-lite/pull/82) to be merged by owner. It can be deleted anytime without further notice.
